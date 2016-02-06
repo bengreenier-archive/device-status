@@ -1,0 +1,31 @@
+{
+  "name": "device-status",
+  "version": "0.0.1",
+  "description": "device events on network status changes",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "device",
+    "network",
+    "status",
+    "event"
+  ],
+  "author": "Ben Greenier",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bengreenier/device-status.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bengreenier/device-status/issues"
+  },
+  "homepage": "https://github.com/bengreenier/device-status#readme",
+  "dependencies": {
+    "ping": "^0.1.10"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
